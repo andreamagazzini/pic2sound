@@ -1,0 +1,78 @@
+.container {
+    width: 70%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-top: 2rem;
+}
+
+button {
+    font-size: 35px;
+    border-radius: 30px;
+    font-weight: 300;
+    width: 100%;
+}
+
+button:focus {
+    outline: None;
+}
+
+input[type='file'] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
+}
+
+label {
+    width: 100%;
+}
+
+label[for='test'] {
+    width: 100%;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+}
+
+.load-bar {
+    background-color: coral;
+    height: 0.5rem;
+    margin-bottom: -0.5rem;
+    z-index: 1;
+    position: relative;
+    border-radius: .3rem;
+}
+
+.show-result {
+    text-align: center;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border: 1px solid darkgray;
+    border-radius: .3rem;
+}
+
+video {
+    width: 100%;
+    border-radius: .3rem;
+}
+
+img {
+    width: 100%;
+    border-radius: .3rem;
+}
+
+.btn-webcam {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+}
